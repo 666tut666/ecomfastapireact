@@ -15,7 +15,7 @@ export default function Review({ product }) {
       var alreadyreviewed;
 
       for (var i = 0; i < product.reviews.length; i++) {
-        if (product.reviews[i].user_id == currentUser.id) {
+        if (product.reviews[i].user_id === currentUser.id) {
           alreadyreviewed = true;
         }
       }

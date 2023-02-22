@@ -23,7 +23,7 @@ export default function Editproduct({ match }) {
 
   useEffect(() => {
     if (product) {
-      if (product.id == match.params.productid) {
+      if (product.id === match.params.productid) {
         setname(product.name);
         setprice(product.price);
         setdescription(product.description);

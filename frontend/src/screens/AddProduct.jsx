@@ -35,7 +35,7 @@ export default function AddProduct() {
     <div>
       <div className="row justify-content-center">
         <div className="col-md-8 shadow p-3 mb-5 bg-white rounded">
-          {success && <Success success="Product Added Succesfully" />}
+          {success && <Success success="Product Added Successfully" />}
           {loading && <Loader />}
           {error && <Error error="Something went wrong" />}
 
