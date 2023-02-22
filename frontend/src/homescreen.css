@@ -1,0 +1,11 @@
+/* In HomeScreen.css */
+
+.light {
+  background-color: #f5f5f5;
+  color: #000000;
+}
+
+.dark {
+  background-color: #1c1c1c;
+  color: #f5f5f5;
+}
